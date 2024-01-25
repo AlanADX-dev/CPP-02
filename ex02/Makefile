@@ -3,7 +3,7 @@ SRCS = Fixed.cpp main.cpp
 
 NAME = exec
 
-CFLANG = -Wall -Wextra -Werror -std=c++98
+CFLAG = -Wall -Wextra -Werror -std=c++98
 OBJS = $(SRCS:.cpp=.o)
 
 
